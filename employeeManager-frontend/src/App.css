@@ -1,0 +1,19 @@
+.employee-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.employee-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.navbar-light {
+  background-color: #f8f9fa !important; /* Light grey background */
+}
+
+.navbar-light .navbar-brand {
+  color: #fff !important; /* White text color for Employee Manager */
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
